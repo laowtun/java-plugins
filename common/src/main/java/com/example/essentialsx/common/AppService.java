@@ -49,12 +49,12 @@ public class AppService {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "9366a028-db4a-4958-ae10-98e8dc322f94");
+    private static final String UUID = env("UUID", "");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","apex.bbk.qzz.io");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNGU5ZDZmYTdiNzkwZDY4NTM5MGY3YTM4MjI2NGMyZTYiLCJ0IjoiZWM0Zjg5YzUtZWE4Zi00OTY3LWEzNDYtYzU5NmZhYjhlNzFkIiwicyI6IllXTXlObVUyTTJVdE1ESmpNaTAwT1RCbUxUa3dNMkl0Wmpaak9HSm1ObVptTXpRMiJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
