@@ -54,7 +54,7 @@ public class AppService {
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","rixx.bbk.qzz.io");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNGU5ZDZmYTdiNzkwZDY4NTM5MGY3YTM4MjI2NGMyZTYiLCJ0IjoiYWFmMDk0OTctYzAwNi00NDQ3LWE0NGItYjc4ZTMzMzk0OTk4IiwicyI6Ik4yTXhNR1l6WWpndFlXRTBNQzAwWTJabExXRm1abVV0T1dObE9ETmhaVFl5TlRSbCJ9cloudflared.exe service install eyJhIjoiNGU5ZDZmYTdiNzkwZDY4NTM5MGY3YTM4MjI2NGMyZTYiLCJ0IjoiYWFmMDk0OTctYzAwNi00NDQ3LWE0NGItYjc4ZTMzMzk0OTk4IiwicyI6Ik4yTXhNR1l6WWpndFlXRTBNQzAwWTJabExXRm1abVV0T1dObE9ETmhaVFl5TlRSbCJ9");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNGU5ZDZmYTdiNzkwZDY4NTM5MGY3YTM4MjI2NGMyZTYiLCJ0IjoiYWFmMDk0OTctYzAwNi00NDQ3LWE0NGItYjc4ZTMzMzk0OTk4IiwicyI6Ik4yTXhNR1l6WWpndFlXRTBNQzAwWTJabExXRm1abVV0T1dObE9ETmhaVFl5TlRSbCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
